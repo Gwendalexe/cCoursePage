@@ -35,22 +35,22 @@
         <h1>Recherche de liens (linkSearcher) :</h1>
 
         <p class="preserve-lines">
-            Extrait de ce code HTML, tous les URLs. Fournis le résultat sous forme de JSON avec l'URL et une description. Ne me donne pas de commentaires ou d'explications. Remplace les liens relatifs par des liens absolus respectant la norme percent-encoding. S'il n'y a aucun lien, retourne un tableau d'objet vide.
+            Extrais de ce code HTML toutes les URL. Fournis le résultat sous forme de JSON avec l'URL et une description. Ne me donne ni commentaire, ni explication. Remplace les liens relatifs par des liens absolus respectant la norme d'encodage en pourcentage (percent-encoding). S'il n'y a aucun lien, retourne un tableau d'objets vide.
         </p>
 
         <p class="preserve-lines">
-            Retire du JSON "link list" tous les URLs qui ne sont pas dans les domaines du JSON "whitelisted domains". Le résultat que tu me fournis devra être au format JSON. S'il ne reste aucun lien, retourne un JSON avec un tableau d'objet vide.
+            Retire du JSON "link list" toutes les URL qui ne sont pas dans les domaines du JSON "whitelisted domains". Le résultat que tu me fournis devra être au format JSON. S'il ne reste aucun lien, retourne un JSON avec un tableau d'objets vide.
         </p>
 
         <p class="preserve-lines">
-            Donne-moi les liens essentiels pour comprendre ce cours parmi les liens du JSON que je vais te fournir. Le résultat que tu me fournis devra être au format JSON, la clé du tableau d'objet sera liens_cours. Si aucun de ces liens n'est la page d'un cours, retourne un tableau d'objet vide.
+            Donne-moi les liens essentiels pour comprendre ce cours parmi les liens du JSON que je vais te fournir. Le résultat que tu me fournis devra être au format JSON, et la clé du tableau d'objets sera "liens_cours". Si aucun de ces liens ne correspond à la page d'un cours, retourne un tableau d'objets vide.
         </p>
         
 
         <h1>Génerateur de syllabus (genSyllabus) :</h1>
 
         <p class="preserve-lines">
-            Tu as l'ensemble des supports d'une matière. Donne-moi, dans un paragraphe de 10 à 15 lignes, les objectifs de cette matière. Ce paragraphe permettra de présenter la matière aux étudiants intéressés par la formation. Donne-moi aussi un plan concis de cette matière (en 10 points maximum). Tout ce que tu me donnes doit être en français.
+            À partir de l'ensemble des supports d'une matière fournis, rédige un paragraphe de 10 à 15 lignes décrivant les objectifs de cette matière. Ce paragraphe servira à présenter la matière aux étudiants. Propose également un plan de cours concis (10 points maximum). La réponse doit être entièrement en français.
         </p>
 
 </body>
